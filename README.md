@@ -1,5 +1,5 @@
 # baby-pythonista
-I have developed the code further. I have been working on it but have been busy but I have finally finished a few ideas  I had.
+
 
 The code does the following now.
 
