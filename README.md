@@ -1,5 +1,6 @@
 # baby-pythonista
 
+This code only runs with python 3.
 
 The code does the following now.
 
