@@ -304,9 +304,7 @@ def customer_menu():
             print('unknown option selected')
             continue
 
-
 customer_menu()
-
 with conn:
         check_customer_exist = c.execute(
             'SELECT firstname, lastname FROM customer_details WHERE customer_no ==?', (cust_pin,))
@@ -320,14 +318,3 @@ with conn:
                 firstname, names = customer_exist[0], customer_exist[1]
                 my_customers = Existing_Customer()
                 my_customers.existing_customer_options()
-
-
-
-
-
-
-
-
-
-
-
